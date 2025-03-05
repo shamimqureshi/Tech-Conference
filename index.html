@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event & Conference</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Tech Conference</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center justify-content-center position-relative text-center text-white vh-100">
+        <div class="hero-overlay"></div>
+        <div class="position-relative z-1">
+            <h1 class="animate__animated animate__fadeInDown display-4 fw-bold">Welcome to the Tech Conference</h1>
+            <p class="lead animate__animated animate__fadeInUp">Join us for an unforgettable experience</p>
+            <a href="#register" class="btn btn-light btn-lg animate__animated animate__zoomIn">Register Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="text-center">
+        <div class="container animate__animated animate__fadeInLeft">
+            <div class="bg-dark p-5 rounded shadow-lg">
+                <h2 class="mb-4">About the Event</h2>
+                <p class="lead">
+                    Join us for an exciting journey into the future of technology! Our event brings together 
+                    top industry leaders, innovators, and enthusiasts to explore groundbreaking ideas, 
+                    cutting-edge trends, and the latest advancements in the tech world.
+                </p>
+                <p>
+                    Whether you're a developer, entrepreneur, or tech enthusiast, this event is designed 
+                    to inspire, educate, and connect like-minded professionals. Don't miss the opportunity 
+                    to network, learn, and shape the future of technology!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="text-center py-5">
+        <div class="container animate__animated animate__fadeInRight">
+            <h2 class="mb-4">Our Speakers</h2>
+            <p class="mb-5">Meet the experts sharing insights and knowledge.</p>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white shadow-lg">
+                        <img src="img/Speaker-1.jpeg" class="card-img-top" alt="Speaker 1">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">AI Specialist & Keynote Speaker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white shadow-lg">
+                        <img src="img/Speaker-2.jpg" class="card-img-top" alt="Speaker 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text">Cybersecurity Expert</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white shadow-lg">
+                        <img src="img/Speaker-3.jpg" class="card-img-top" alt="Speaker 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Michael Johnson</h5>
+                            <p class="card-text">Cloud Computing Innovator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Schedule Section -->
+    <section id="schedule" class="text-center py-5">
+        <div class="container animate__animated animate__fadeInLeft">
+            <h2 class="mb-4"><i class="fas fa-calendar-alt"></i> Event Schedule</h2>
+            <p class="lead">Check out our exciting sessions and workshops.</p>
+
+            <div class="timeline mt-5">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-microphone"></i></div>
+                    <div class="timeline-content">
+                        <h4>Opening Keynote</h4>
+                        <p>9:00 AM - 10:00 AM | Speaker: John Doe</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-code"></i></div>
+                    <div class="timeline-content">
+                        <h4>AI & Machine Learning</h4>
+                        <p>10:30 AM - 12:00 PM | Workshop</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-network-wired"></i></div>
+                    <div class="timeline-content">
+                        <h4>Networking Lunch</h4>
+                        <p>12:30 PM - 2:00 PM | Connect with industry experts</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-rocket"></i></div>
+                    <div class="timeline-content">
+                        <h4>Tech Innovations Panel</h4>
+                        <p>2:30 PM - 4:00 PM | Panel Discussion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Section -->
+    <section id="register" class="text-center py-5">
+        <div class="container animate__animated animate__fadeInUp">
+            <div class="bg-dark text-white p-5 rounded shadow-lg">
+                <h2 class="mb-3"><i class="fas fa-ticket-alt"></i> Register Now</h2>
+                <p class="lead">Secure your spot today and be part of an amazing experience!</p>
+
+                <!-- Countdown Timer -->
+                <div id="countdown" class="mb-4 fs-4 fw-bold"></div>
+
+                <!-- Registration Button -->
+                <a href="#" class="btn btn-primary btn-lg px-4 fw-bold shadow">
+                    <i class="fas fa-user-check"></i> Sign Up
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-center py-5">
+        <div class="container animate__animated animate__fadeInRight">
+            <div class="bg-dark text-white p-5 rounded shadow-lg">
+                <h2 class="mb-4"><i class="fas fa-headset"></i> Get in Touch</h2>
+                <p class="lead">Have questions or inquiries? We'd love to hear from you!</p>
+                
+                <!-- Contact Details -->
+                <div class="row justify-content-center mb-4">
+                    <div class="col-md-4 text-start">
+                        <p class="mb-2">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@techconference.com" class="text-light fw-bold text-decoration-none"> info@techconference.com</a>
+                        </p>
+                        <p class="mb-2">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+1234567890" class="text-light fw-bold text-decoration-none"> +1 (234) 567-890</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Silicon Valley, CA, USA
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg px-4 fw-bold shadow">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="mt-4">
+                    <a href="#" class="text-light mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="text-light mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#" class="text-light mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="#" class="text-light mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2023 STEPPINGTECH. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
